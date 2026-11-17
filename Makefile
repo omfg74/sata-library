@@ -1,4 +1,4 @@
-.PHONY: test stl preview
+.PHONY: test stl preview preview-rack
 
 test:
 	PYTHONPATH=src python3 -m unittest discover -s tests -v
@@ -10,6 +10,17 @@ stl:
 	openscad -o cad/out/strap.stl cad/strap.scad
 	openscad -o cad/out/gauge.stl cad/gauge.scad
 	openscad -o cad/out/sled.stl cad/sled.scad
+	openscad -o cad/out/corner.stl cad/corner.scad
+	openscad -o cad/out/basket.stl cad/basket.scad
+	openscad -o cad/out/endstop_clip.stl cad/endstop_clip.scad
+
+preview-rack:
+	mkdir -p cad/out
+	openscad -o cad/out/rack.png --imgsize=1600,900 \
+		--colorscheme=Tomorrow --projection=ortho \
+		--autocenter --viewall \
+		--camera=0,0,0,32,0,54,520 \
+		cad/rack.scad
 
 preview:
 	mkdir -p cad/out

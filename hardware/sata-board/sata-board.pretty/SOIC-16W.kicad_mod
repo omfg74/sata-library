@@ -1,0 +1,77 @@
+(
+	"footprint"
+	"SOIC-16W"
+	("version" 20240108)
+	("generator" "pcbnew")
+	("generator_version" "8.0")
+	("layer" "F.Cu")
+	("descr" "SOIC-16W")
+	("attr" smd)
+	(
+			"fp_text"
+			reference
+			"REF**"
+			("at" 0 3.2 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_text"
+			value
+			"SOIC-16W"
+			("at" 0 -2.4 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_line"
+			("start" -3.225 -5.645)
+			("end" 3.225 -5.645)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 3.225 -5.645)
+			("end" 3.225 5.645)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 3.225 5.645)
+			("end" -3.225 5.645)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -3.225 5.645)
+			("end" -3.225 -5.645)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -3.425 4.845)
+			("end" -2.325 4.845)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	("pad" "1" smd rect ("at" -4.525 4.445) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "2" smd rect ("at" -4.525 3.175) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "3" smd rect ("at" -4.525 1.905) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "4" smd rect ("at" -4.525 0.635) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "5" smd rect ("at" -4.525 -0.635) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "6" smd rect ("at" -4.525 -1.905) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "7" smd rect ("at" -4.525 -3.175) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "8" smd rect ("at" -4.525 -4.445) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "9" smd rect ("at" 4.525 -4.445) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "10" smd rect ("at" 4.525 -3.175) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "11" smd rect ("at" 4.525 -1.905) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "12" smd rect ("at" 4.525 -0.635) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "13" smd rect ("at" 4.525 0.635) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "14" smd rect ("at" 4.525 1.905) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "15" smd rect ("at" 4.525 3.175) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+	("pad" "16" smd rect ("at" 4.525 4.445) ("size" 1.9 0.6) ("layers" "F.Cu" "F.Paste" "F.Mask"))
+)

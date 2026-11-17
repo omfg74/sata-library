@@ -1,0 +1,56 @@
+(
+	"footprint"
+	"PinHeader_1x02"
+	("version" 20240108)
+	("generator" "pcbnew")
+	("generator_version" "8.0")
+	("layer" "F.Cu")
+	("descr" "PinHeader_1x02")
+	("attr" through_hole)
+	(
+			"fp_text"
+			reference
+			"REF**"
+			("at" 0 3.2 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_text"
+			value
+			"PinHeader_1x02"
+			("at" 0 -2.4 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_line"
+			("start" -1.4 1.4)
+			("end" 1.4 1.4)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 1.4 1.4)
+			("end" 1.4 -3.94)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 1.4 -3.94)
+			("end" -1.4 -3.94)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -1.4 -3.94)
+			("end" -1.4 1.4)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	("pad" "1" thru_hole rect ("at" 0 0) ("size" 1.7 1.7) ("drill" 1) ("layers" "*.Cu" "*.Mask"))
+	("pad" "2" thru_hole circle ("at" 0 -2.54) ("size" 1.7 1.7) ("drill" 1) ("layers" "*.Cu" "*.Mask"))
+)

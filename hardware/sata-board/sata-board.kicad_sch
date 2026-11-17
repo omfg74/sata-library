@@ -1,0 +1,4167 @@
+(
+	"kicad_sch"
+	("version" 20231120)
+	("generator" "eeschema")
+	("generator_version" "8.0")
+	("uuid" "694368bc-6724-4033-b677-e72e1d63d893")
+	("paper" "A1")
+	(
+			"lib_symbols"
+			(
+						"symbol"
+						"sata-board:R"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "R" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "R" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Description" "Resistor" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"symbol"
+										"sata-board:R_0_1"
+										(
+															"rectangle"
+															("start" -1.016 -2.54)
+															("end" 1.016 2.54)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:R_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 0 3.81 270)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -3.81 90)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:RH"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "R" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "RH" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Description" "Resistor" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"symbol"
+										"sata-board:RH_0_1"
+										(
+															"rectangle"
+															("start" -2.54 -1.016)
+															("end" 2.54 1.016)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:RH_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -3.81 0 180)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 3.81 0 0)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:C"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "C" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "C" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Description" "Capacitor" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"symbol"
+										"sata-board:C_0_1"
+										(
+															"polyline"
+															("pts" ("xy" -1.6 0.6) ("xy" 1.6 0.6))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.6 -0.6) ("xy" 1.6 -0.6))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:C_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 0 3.81 270)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -3.81 90)
+															("length" 1.27)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:CP"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "C" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "CP" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"Polarized capacitor"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:CP_0_1"
+										(
+															"polyline"
+															("pts" ("xy" -2 1.2) ("xy" 2 1.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -2 -1.2) ("xy" 2 -1.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 0 2.4) ("xy" 0 4))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -0.8 3.2) ("xy" 0.8 3.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:CP_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 0 6.35 270)
+															("length" 2.54)
+															("name" "+" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -6.35 90)
+															("length" 2.54)
+															("name" "-" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:DZ"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "D" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "DZ" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"15 V zener, cathode pin 1"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:DZ_0_1"
+										(
+															"polyline"
+															("pts" ("xy" -1.8 1.4) ("xy" 1.8 1.4))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.8 1.4) ("xy" 0 -1.4))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 1.8 1.4) ("xy" 0 -1.4))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 1.8 1.4) ("xy" 1.8 2.6))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 1.2 2.2) ("xy" 1.8 2.6))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:DZ_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 0 5.08 270)
+															("length" 2.54)
+															("name" "K" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -5.08 90)
+															("length" 2.54)
+															("name" "A" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:PMOS"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "Q" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "PMOS" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"P-channel MOSFET, source pin 3, drain pin 2, gate pin 1"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:PMOS_0_1"
+										(
+															"polyline"
+															("pts" ("xy" 0 7.62) ("xy" 0 2.54))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 0 -2.54) ("xy" 0 -7.62))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -2.2 2.54) ("xy" 2.2 2.54))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -2.2 0) ("xy" 2.2 0))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -2.2 -2.54) ("xy" 2.2 -2.54))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -5.08 -3.2) ("xy" -5.08 3.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -7.62 0) ("xy" -5.08 0))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 0 4.4) ("xy" -1.6 6.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 0 4.4) ("xy" 1.6 6.2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:PMOS_1_1"
+										(
+															"pin"
+															input
+															line
+															("at" -10.16 0 180)
+															("length" 2.54)
+															("name" "G" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -10.16 90)
+															("length" 2.54)
+															("name" "D" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 10.16 270)
+															("length" 2.54)
+															("name" "S" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:NMOS"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "Q" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "NMOS" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"N-channel MOSFET, gate pin 1, source pin 2, drain pin 3"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:NMOS_0_1"
+										(
+															"polyline"
+															("pts" ("xy" 0 5.08) ("xy" 0 2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 0 -2) ("xy" 0 -5.08))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.8 2) ("xy" 1.8 2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.8 0) ("xy" 1.8 0))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.8 -2) ("xy" 1.8 -2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -3.81 -2.6) ("xy" -3.81 2.6))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -5.08 0) ("xy" -3.81 0))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -1.4 -3.4) ("xy" 0 -2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" 1.4 -3.4) ("xy" 0 -2))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:NMOS_1_1"
+										(
+															"pin"
+															input
+															line
+															("at" -7.62 0 180)
+															("length" 2.54)
+															("name" "G" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 -7.62 90)
+															("length" 2.54)
+															("name" "S" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 0 7.62 270)
+															("length" 2.54)
+															("name" "D" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:FUSE"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "F" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "FUSE" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Description" "Fuse" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"symbol"
+										"sata-board:FUSE_0_1"
+										(
+															"rectangle"
+															("start" -3.8 -1.4)
+															("end" 3.8 1.4)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -3.8 -1.4) ("xy" 3.8 1.4))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:FUSE_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 0 180)
+															("length" 2.54)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 7.62 0 0)
+															("length" 2.54)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:POLY"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "F" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "POLY" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Description" "Polyfuse" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"symbol"
+										"sata-board:POLY_0_1"
+										(
+															"rectangle"
+															("start" -3.8 -1.6)
+															("end" 3.8 1.6)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+										(
+															"polyline"
+															("pts" ("xy" -2.2 0) ("xy" 2.2 0))
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:POLY_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 0 180)
+															("length" 2.54)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 7.62 0 0)
+															("length" 2.54)
+															("name" "~" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:TERM2"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "J" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "TERM2" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"2-pin 5.08 mm screw terminal"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:TERM2_0_1"
+										(
+															"rectangle"
+															("start" -2.54 -6.35)
+															("end" 5.08 6.35)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:TERM2_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 5.08 0)
+															("length" 2.54)
+															("name" "+12V_SW" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -5.08 0)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:TERM3"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "J" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "TERM3" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"3-pin 5.08 mm screw terminal, disk pigtail"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:TERM3_0_1"
+										(
+															"rectangle"
+															("start" -5.08 -7.62)
+															("end" 2.54 7.62)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:TERM3_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -10.16 5.08 180)
+															("length" 2.54)
+															("name" "+12" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -10.16 0 180)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -10.16 -5.08 180)
+															("length" 2.54)
+															("name" "+5" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:HDR2"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "J" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "HDR2" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"2-pin 2.54 mm header"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:HDR2_0_1"
+										(
+															"rectangle"
+															("start" -2.54 -3.81)
+															("end" 2.54 3.81)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:HDR2_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 2.54 180)
+															("length" 2.54)
+															("name" "+5V" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 -2.54 180)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:HDR4"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "J" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "HDR4" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"4-pin header for XL4015 module"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:HDR4_0_1"
+										(
+															"rectangle"
+															("start" -2.54 -8.89)
+															("end" 2.54 8.89)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:HDR4_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 7.62 180)
+															("length" 2.54)
+															("name" "VIN" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 2.54 180)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 -2.54 180)
+															("length" 2.54)
+															("name" "VOUT" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -7.62 -7.62 180)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "4" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:H2X5"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "J" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "H2X5" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"Female 2x5 2.54 mm, IDC numbering, pin 1 and pin 2 on the end row"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:H2X5_0_1"
+										(
+															"rectangle"
+															("start" -2.54 -11.43)
+															("end" 5.08 12.7)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:H2X5_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 11.43 0)
+															("length" 2.54)
+															("name" "3V3_AUX" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 8.89 0)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 6.35 0)
+															("length" 2.54)
+															("name" "PRESENT_N" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 3.81 0)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "4" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 1.27 0)
+															("length" 2.54)
+															("name" "SDA" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "5" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -1.27 0)
+															("length" 2.54)
+															("name" "SCL" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "6" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -3.81 0)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "7" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -6.35 0)
+															("length" 2.54)
+															("name" "NC" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "8" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -8.89 0)
+															("length" 2.54)
+															("name" "NC" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "9" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 10.16 -11.43 0)
+															("length" 2.54)
+															("name" "GND" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "10" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:PCA9554"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "U" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "PCA9554" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"PCA9554 I2C expander, address 0x20"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:PCA9554_0_1"
+										(
+															"rectangle"
+															("start" -12.7 -8.89)
+															("end" 12.7 16.51)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:PCA9554_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 17.78 180)
+															("length" 2.54)
+															("name" "A0" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 15.24 180)
+															("length" 2.54)
+															("name" "A1" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 12.7 180)
+															("length" 2.54)
+															("name" "A2" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 7.62 180)
+															("length" 2.54)
+															("name" "IO0" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "4" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 5.08 180)
+															("length" 2.54)
+															("name" "IO1" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "5" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 2.54 180)
+															("length" 2.54)
+															("name" "IO2" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "6" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 0 180)
+															("length" 2.54)
+															("name" "IO3" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "7" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -17.78 -7.62 180)
+															("length" 2.54)
+															("name" "VSS" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "8" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 17.78 0)
+															("length" 2.54)
+															("name" "IO4" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "9" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 15.24 0)
+															("length" 2.54)
+															("name" "IO5" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "10" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 12.7 0)
+															("length" 2.54)
+															("name" "IO6" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "11" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 10.16 0)
+															("length" 2.54)
+															("name" "IO7" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "12" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 5.08 0)
+															("length" 2.54)
+															("name" "INT" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "13" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 0 0)
+															("length" 2.54)
+															("name" "SCL" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "14" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 -2.54 0)
+															("length" 2.54)
+															("name" "SDA" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "15" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 17.78 -7.62 0)
+															("length" 2.54)
+															("name" "VDD" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "16" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+			(
+						"symbol"
+						"sata-board:AT24C02"
+						("pin_names" ("offset" 0.254))
+						("exclude_from_sim" no)
+						("in_bom" yes)
+						("on_board" yes)
+						("property" "Reference" "U" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Value" "AT24C02" ("at" 0 -2.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+						("property" "Footprint" "" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						("property" "Datasheet" "~" ("at" 0 0 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+						(
+										"property"
+										"Description"
+										"AT24C02 EEPROM, 7-bit address 0x50"
+										("at" 0 0 0)
+										("effects" ("font" ("size" 1.27 1.27)) hide)
+									)
+						(
+										"symbol"
+										"sata-board:AT24C02_0_1"
+										(
+															"rectangle"
+															("start" -7.62 -2.54)
+															("end" 7.62 8.89)
+															("stroke" ("width" 0.254) ("type" default))
+															("fill" ("type" none))
+														)
+									)
+						(
+										"symbol"
+										"sata-board:AT24C02_1_1"
+										(
+															"pin"
+															passive
+															line
+															("at" -12.7 7.62 180)
+															("length" 2.54)
+															("name" "A0" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "1" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -12.7 5.08 180)
+															("length" 2.54)
+															("name" "A1" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "2" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -12.7 2.54 180)
+															("length" 2.54)
+															("name" "A2" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "3" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" -12.7 0 180)
+															("length" 2.54)
+															("name" "VSS" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "4" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 12.7 0 0)
+															("length" 2.54)
+															("name" "SDA" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "5" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 12.7 2.54 0)
+															("length" 2.54)
+															("name" "SCL" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "6" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 12.7 5.08 0)
+															("length" 2.54)
+															("name" "WP" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "7" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+										(
+															"pin"
+															passive
+															line
+															("at" 12.7 7.62 0)
+															("length" 2.54)
+															("name" "VCC" ("effects" ("font" ("size" 1.27 1.27))))
+															("number" "8" ("effects" ("font" ("size" 1.27 1.27))))
+														)
+									)
+					)
+		)
+	(
+			"title_block"
+			("title" "SATA power and interface board")
+			("date" "2026-11-18")
+			("rev" "1")
+			("company" "sata-library")
+			("comment" 1 "Power and I2C only. No SATA or USB pairs on this PCB.")
+		)
+	(
+			"text"
+			"XL4015 module has its own inductor. This board is not a discrete buck. Set the module to 5.1 V before connecting disks."
+			("exclude_from_sim" no)
+			("at" 20.32 317.5 0)
+			("effects" ("font" ("size" 1.5 1.5)) ("justify" left bottom))
+			("uuid" "b9aef461-9c6b-446a-8922-bbfae13ea5fd")
+		)
+	(
+			"text"
+			"PRESENT_N (J3 pin 3) is a track to GND, not a resistor. IO4-IO7 are inputs with 100k to GND, not motor outputs."
+			("exclude_from_sim" no)
+			("at" 20.32 307.34 0)
+			("effects" ("font" ("size" 1.5 1.5)) ("justify" left bottom))
+			("uuid" "b3d2f48b-877f-4ea4-ac2e-580af1dd61f4")
+		)
+	(
+			"text"
+			"IRF4905 high-side. Gate to source 100k = default OFF. 2N7002 pulls the gate down to turn a disk on. 5 V is not switched."
+			("exclude_from_sim" no)
+			("at" 20.32 297.18 0)
+			("effects" ("font" ("size" 1.5 1.5)) ("justify" left bottom))
+			("uuid" "564acf0f-a12e-419e-a8f2-4e90542e1a30")
+		)
+	(
+			"text"
+			"EEPROM map: bytes 0-3 SLIB, byte 4 = 1, byte 5 = 4, byte 6 = 1, rest 0. Blank from the fab. WP tied to GND."
+			("exclude_from_sim" no)
+			("at" 20.32 287.02 0)
+			("effects" ("font" ("size" 1.5 1.5)) ("justify" left bottom))
+			("uuid" "54d8b233-79a6-4103-93c3-4d952d65db30")
+		)
+	(
+			"junction"
+			("at" 66.04 368.3)
+			("diameter" 0)
+			("color" 0 0 0 0)
+			("uuid" "29aaef14-e78f-41ae-bb6e-eb2c4ce2ead9")
+		)
+	(
+			"junction"
+			("at" 66.04 431.8)
+			("diameter" 0)
+			("color" 0 0 0 0)
+			("uuid" "75caee3e-1cc8-448c-b43d-a6c4b81b4a70")
+		)
+	(
+			"junction"
+			("at" 66.04 495.3)
+			("diameter" 0)
+			("color" 0 0 0 0)
+			("uuid" "ce7404a0-202f-4f95-8118-a6116af2e4a0")
+		)
+	(
+			"junction"
+			("at" 66.04 558.8)
+			("diameter" 0)
+			("color" 0 0 0 0)
+			("uuid" "de771fcf-7285-4a0c-ad60-725c356ef748")
+		)
+	("no_connect" ("at" 276.86 628.65) ("uuid" "777bed2c-661f-4bfb-adb8-7b8193b8fa17"))
+	("no_connect" ("at" 276.86 626.11) ("uuid" "f9951f9a-4cee-41c7-9a60-819081226878"))
+	("no_connect" ("at" 373.38 640.08) ("uuid" "5c5999ad-3438-40e3-a8f6-adaac8ab87a8"))
+	(
+			"wire"
+			("pts" ("xy" 35.56 665.48) ("xy" 32 665.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "42ac4379-c14f-409a-9a63-16db02d16eda")
+		)
+	(
+			"wire"
+			("pts" ("xy" 32 665.48) ("xy" 32 630))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000001")
+		)
+	(
+			"wire"
+			("pts" ("xy" 32 630) ("xy" 66.04 630))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000002")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 630) ("xy" 66.04 645.16))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000003")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 665.48) ("xy" 66.04 665.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000004")
+		)
+	(
+			"wire"
+			("pts" ("xy" 74 665.48) ("xy" 74 638))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000005")
+		)
+	(
+			"wire"
+			("pts" ("xy" 74 638) ("xy" 88 638))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000006")
+		)
+	(
+			"wire"
+			("pts" ("xy" 88 638) ("xy" 88 645.16))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000007")
+		)
+	(
+			"wire"
+			("pts" ("xy" 88 645.16) ("xy" 83.82 645.16))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a1b2c3d4-1111-4aaa-8bbb-000000000008")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 655.32) ("xy" 38.1 655.32) ("xy" 38.1 648.97))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e2ae2562-5475-4199-864f-0ed1e935271e")
+		)
+	(
+			"wire"
+			("pts" ("xy" 38.1 641.35) ("xy" 38.1 636.27))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "df9be5a1-487e-4a92-8243-7a6c8602e1ce")
+		)
+	(
+			"wire"
+			("pts" ("xy" 35.56 655.32) ("xy" 35.56 642.62))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "eddb01d4-a21c-4019-ba57-79eb32350639")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 665.48) ("xy" 74 665.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "96153203-359b-4a7d-8e9d-7fcd6cb71b94")
+		)
+	(
+			"wire"
+			("pts" ("xy" 99.06 645.16) ("xy" 106.68 645.16))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "f382edc1-e86e-46a2-934e-f4141ccca700")
+		)
+	(
+			"wire"
+			("pts" ("xy" 134.62 660.4) ("xy" 127 660.4))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "8c823300-686e-4f2d-b56a-008ee647abc7")
+		)
+	(
+			"wire"
+			("pts" ("xy" 134.62 655.32) ("xy" 127 655.32))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0098e162-50b6-4cba-8d73-868dccafc4db")
+		)
+	(
+			"wire"
+			("pts" ("xy" 134.62 650.24) ("xy" 127 650.24))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "6bb70d86-76ab-490f-a5b1-7d5871067ccb")
+		)
+	(
+			"wire"
+			("pts" ("xy" 134.62 645.16) ("xy" 127 645.16))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "ce6751cf-5fe5-426c-baff-3268e5d5f9dd")
+		)
+	(
+			"wire"
+			("pts" ("xy" 165.1 676.91) ("xy" 165.1 681.99))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "4bbe3dc9-8c7c-41e4-a65a-2b485dade02f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 165.1 664.21) ("xy" 165.1 659.13))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "3ee42aba-50b8-48ca-bb53-a8ae40aecbcb")
+		)
+	(
+			"wire"
+			("pts" ("xy" 180.34 669.29) ("xy" 180.34 674.37))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "9effc965-8fad-44ee-8907-fcb6891112c6")
+		)
+	(
+			"wire"
+			("pts" ("xy" 180.34 661.67) ("xy" 180.34 656.59))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "37730f87-0fb1-45bd-9c0d-c20498619ce7")
+		)
+	(
+			"wire"
+			("pts" ("xy" 165.1 631.19) ("xy" 165.1 636.27))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "4af94b61-7433-4e03-9295-93e73d659444")
+		)
+	(
+			"wire"
+			("pts" ("xy" 165.1 618.49) ("xy" 165.1 613.41))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "55787148-ccda-4802-8966-be1b905ab7e0")
+		)
+	(
+			"wire"
+			("pts" ("xy" 180.34 623.57) ("xy" 180.34 628.65))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "c1eeb498-6f83-45b2-9406-c96849bb41aa")
+		)
+	(
+			"wire"
+			("pts" ("xy" 180.34 615.95) ("xy" 180.34 610.87))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "ef6b3d84-8fc0-4f86-87c3-be9f930d9a55")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 568.96) ("xy" 83.82 574.04))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "5d0268aa-a840-4ecc-ac54-806527f7aa3b")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 568.96) ("xy" 83.82 568.96))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "05d7d8d0-c1a9-497a-82b2-044d8310ec75")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 561.34) ("xy" 66.04 558.8) ("xy" 73.66 558.8))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "71f4d506-d703-4869-b336-e8e3a97fa16e")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 546.1) ("xy" 55.88 558.8) ("xy" 66.04 558.8))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "33894f4d-70d9-439f-8bed-daeedb2989d5")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 538.48) ("xy" 48.26 538.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "2cfd41da-a686-404e-93f4-d1bae0087c2d")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 530.86) ("xy" 40.64 525.78))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "5924153c-138e-42d5-b49f-f29b20a2cffc")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 530.86) ("xy" 55.88 525.78))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "62b81300-6d39-4ced-bdb0-fcdece9ff49d")
+		)
+	(
+			"wire"
+			("pts" ("xy" 29.21 538.48) ("xy" 40.64 538.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b7d12952-c1e7-44c2-8aed-11cf80115879")
+		)
+	(
+			"wire"
+			("pts" ("xy" 21.59 538.48) ("xy" 15.24 538.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "4e0aafaa-a7dc-40ae-a190-818e1f5e69e4")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 548.64) ("xy" 106.68 548.64))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "c93f24c0-d774-4287-8351-38e33cd866df")
+		)
+	(
+			"wire"
+			("pts" ("xy" 121.92 548.64) ("xy" 162.56 548.64))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "73e96b32-e585-4833-8f5f-238e6b292e1d")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 543.56) ("xy" 154.94 543.56))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "90879ac0-872e-4c66-882b-bc008694f100")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 538.48) ("xy" 154.94 538.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0be75e61-927e-4478-8d6a-fafc84288fda")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 505.46) ("xy" 83.82 510.54))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b87ca1d1-6157-4ae0-8c3e-46345d6ba618")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 505.46) ("xy" 83.82 505.46))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "c0ab080a-75fd-46b9-8677-2f870261b7d4")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 497.84) ("xy" 66.04 495.3) ("xy" 73.66 495.3))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a7502c01-20f4-4826-809a-8ee1d17f676b")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 482.6) ("xy" 55.88 495.3) ("xy" 66.04 495.3))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a23fc630-c55f-423d-b5c4-b3a2e5e18532")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 474.98) ("xy" 48.26 474.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "1c414317-98ce-4b70-98ba-7bbcbbda0b2a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 467.36) ("xy" 40.64 462.28))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "f3f33f92-94bd-4986-a12c-82cf053e079f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 467.36) ("xy" 55.88 462.28))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "f9ea1051-94c2-4057-88a8-07277b63b470")
+		)
+	(
+			"wire"
+			("pts" ("xy" 29.21 474.98) ("xy" 40.64 474.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b9999d85-c51b-433e-901c-76f084542142")
+		)
+	(
+			"wire"
+			("pts" ("xy" 21.59 474.98) ("xy" 15.24 474.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e30d16e2-6314-4d78-b26d-3f6264d705d5")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 485.14) ("xy" 106.68 485.14))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "2f204321-a3c9-498a-ad20-a42643adf12a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 121.92 485.14) ("xy" 162.56 485.14))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "5a1a5472-9fe7-4da8-8560-5bc4e5d27039")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 480.06) ("xy" 154.94 480.06))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "37039873-aa2e-48e0-be5c-7e5c45c5a44f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 474.98) ("xy" 154.94 474.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b6842bba-27e2-4ef4-bc41-502f6382dbb4")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 441.96) ("xy" 83.82 447.04))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "7aaee976-674b-4d88-bb31-62a6669511cd")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 441.96) ("xy" 83.82 441.96))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "348b2936-40db-4fa5-a90c-83ca1e79182f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 434.34) ("xy" 66.04 431.8) ("xy" 73.66 431.8))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0cfb1dee-deac-4533-8521-260020a7d4bd")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 419.1) ("xy" 55.88 431.8) ("xy" 66.04 431.8))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "4e5e3980-ea7c-4ccb-a6e8-d982eb1271d7")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 411.48) ("xy" 48.26 411.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0e3f3e3e-0d08-4215-9906-965721c27597")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 403.86) ("xy" 40.64 398.78))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a95f7b6d-ef86-43f9-93d4-7802cfd39cba")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 403.86) ("xy" 55.88 398.78))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e00f2fce-eee1-44db-a9fb-7f68eb523b80")
+		)
+	(
+			"wire"
+			("pts" ("xy" 29.21 411.48) ("xy" 40.64 411.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0640b277-9c62-4ea5-affa-dcf77e54c304")
+		)
+	(
+			"wire"
+			("pts" ("xy" 21.59 411.48) ("xy" 15.24 411.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b889e5b8-c2ce-4461-b61b-3c771a2fe537")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 421.64) ("xy" 106.68 421.64))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "74c3584b-446f-44fe-a1e9-216f1e5b427e")
+		)
+	(
+			"wire"
+			("pts" ("xy" 121.92 421.64) ("xy" 162.56 421.64))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "546a18e5-5d50-4544-9ae0-37204b58a033")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 416.56) ("xy" 154.94 416.56))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "68ae2165-7c06-448d-afdc-be46b2e69fae")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 411.48) ("xy" 154.94 411.48))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "2bb8ed3b-9329-48c8-a1b2-0989e7ed8be3")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 378.46) ("xy" 83.82 383.54))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "9b7a5ad5-2160-4670-a5c2-56d10584921c")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 378.46) ("xy" 83.82 378.46))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0a7fcf07-a556-4b28-a897-de82ad66480e")
+		)
+	(
+			"wire"
+			("pts" ("xy" 66.04 370.84) ("xy" 66.04 368.3) ("xy" 73.66 368.3))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "ca015de9-30c8-41a2-aa1e-5c4105c9bad9")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 355.6) ("xy" 55.88 368.3) ("xy" 66.04 368.3))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "7b5394e2-c0f0-40dc-a13f-2a3ebfd6e10d")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 347.98) ("xy" 48.26 347.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "323b147c-a999-4519-a735-ecdc511b0385")
+		)
+	(
+			"wire"
+			("pts" ("xy" 40.64 340.36) ("xy" 40.64 335.28))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "2b04960c-8206-4888-a489-a1fb3aa06e2c")
+		)
+	(
+			"wire"
+			("pts" ("xy" 55.88 340.36) ("xy" 55.88 335.28))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "f20a8d4d-a67f-47cd-8490-c94639252799")
+		)
+	(
+			"wire"
+			("pts" ("xy" 29.21 347.98) ("xy" 40.64 347.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "9c15fb81-1321-44fa-ada0-5c3d7ef28866")
+		)
+	(
+			"wire"
+			("pts" ("xy" 21.59 347.98) ("xy" 15.24 347.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "a785693c-162c-406a-a64e-cbe56ec69f2c")
+		)
+	(
+			"wire"
+			("pts" ("xy" 83.82 358.14) ("xy" 106.68 358.14))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "caa0bbea-85a2-472b-ac4a-9349b7447be2")
+		)
+	(
+			"wire"
+			("pts" ("xy" 121.92 358.14) ("xy" 162.56 358.14))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "21068829-1a4b-43bb-b05b-90c9b25f2853")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 353.06) ("xy" 154.94 353.06))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "c57c27e2-5969-4616-8464-2d12ace8c3eb")
+		)
+	(
+			"wire"
+			("pts" ("xy" 162.56 347.98) ("xy" 154.94 347.98))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "6f529af2-595d-43b6-b863-c830c216def3")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 641.35) ("xy" 276.86 643.89))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "18a339d4-98bc-41d2-a489-6ce153045e63")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 646.43) ("xy" 287.02 646.43))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "4703510d-139d-4079-92b9-85261ce31b6f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 643.89) ("xy" 287.02 643.89))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "9bc8c346-0a0b-4738-870c-939b33fe514b")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 638.81) ("xy" 287.02 638.81))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "0c6946ef-1042-40a6-9e51-be1a6350e9dc")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 636.27) ("xy" 287.02 636.27))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "39e94b8b-68d6-4b35-8196-f63bcacfa129")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 633.73) ("xy" 287.02 633.73))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "17b9630f-89bb-4da2-aba5-971914631b7e")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 631.19) ("xy" 287.02 631.19))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "86bd2a2f-107a-4263-b4a3-c000fb322684")
+		)
+	(
+			"wire"
+			("pts" ("xy" 276.86 623.57) ("xy" 287.02 623.57))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "8407d487-df8a-41a3-8156-93a03aff016d")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 652.78) ("xy" 330.2 652.78))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "21ee2f12-9d65-4cd6-a153-bf6285005a45")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 650.24) ("xy" 330.2 650.24))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e30b05bd-7b32-45f2-bf7a-217848c8c426")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 647.7) ("xy" 330.2 647.7))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "887ab16c-8191-44d7-b4ee-3b1d960baedd")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 627.38) ("xy" 330.2 627.38))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "150e4b18-dc2f-41f4-8301-5dafb9d5a95a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 642.62) ("xy" 327.66 642.62))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "345baf2d-da7c-4d99-92d3-f5bf12ae1a36")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 640.08) ("xy" 327.66 640.08))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "03878c9e-9255-4446-a486-b392c0fb0abb")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 637.54) ("xy" 327.66 637.54))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "76a59cab-ba39-4def-9e81-f446143ce887")
+		)
+	(
+			"wire"
+			("pts" ("xy" 337.82 635) ("xy" 327.66 635))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "3eb98c19-4c11-4ff0-a2fc-bc2d5ae33151")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 635) ("xy" 383.54 635))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "c5565f75-7baa-44ab-863c-ba44f5bef653")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 632.46) ("xy" 383.54 632.46))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "226d808f-a5f3-4807-bf60-a9bd28b8ade8")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 627.38) ("xy" 383.54 627.38))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "7680589f-bef9-4679-9246-0251662bd137")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 652.78) ("xy" 401.32 652.78) ("xy" 401.32 715.01) ("xy" 441.96 715.01))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "cb5c0280-0e5b-43e9-b8a1-1eb45615b1cb")
+		)
+	(
+			"wire"
+			("pts" ("xy" 441.96 707.39) ("xy" 452.12 707.39))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "481f6da9-5e69-4f47-85d3-a9addb7d7b30")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 650.24) ("xy" 406.4 650.24) ("xy" 406.4 694.69) ("xy" 441.96 694.69))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "61248738-807f-4970-8c3d-343a179de3a0")
+		)
+	(
+			"wire"
+			("pts" ("xy" 441.96 687.07) ("xy" 452.12 687.07))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "26abb93f-73fa-4752-a98d-cecfa0ca0466")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 647.7) ("xy" 411.48 647.7) ("xy" 411.48 674.37) ("xy" 441.96 674.37))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "1645a76f-1131-463c-afa8-8f829248e310")
+		)
+	(
+			"wire"
+			("pts" ("xy" 441.96 666.75) ("xy" 452.12 666.75))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e45fb7c3-ad15-4ec3-9036-b89306befc4a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 373.38 645.16) ("xy" 416.56 645.16) ("xy" 416.56 654.05) ("xy" 441.96 654.05))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "90ab395b-c3ca-42a6-8089-004d8f9e5429")
+		)
+	(
+			"wire"
+			("pts" ("xy" 441.96 646.43) ("xy" 452.12 646.43))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "85ce70b4-5c95-4703-9792-fd6df109905a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 342.9 579.12) ("xy" 335.28 579.12))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "62eaa646-e803-4429-9499-7cc8b4344141")
+		)
+	(
+			"wire"
+			("pts" ("xy" 342.9 576.58) ("xy" 335.28 576.58))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "63bdbfff-909d-47ac-a0ce-ce941433f56b")
+		)
+	(
+			"wire"
+			("pts" ("xy" 342.9 574.04) ("xy" 335.28 574.04))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "6df69995-c79c-4f44-9295-3491f9368354")
+		)
+	(
+			"wire"
+			("pts" ("xy" 342.9 571.5) ("xy" 335.28 571.5))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "aa771e14-1b19-4170-8178-6c779877f49f")
+		)
+	(
+			"wire"
+			("pts" ("xy" 368.3 576.58) ("xy" 375.92 576.58))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "d2760ef3-27bb-4d07-89b1-427ca289725b")
+		)
+	(
+			"wire"
+			("pts" ("xy" 368.3 571.5) ("xy" 378.46 571.5))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "2d0ef22a-e37a-40b2-8bbb-a4d97f68f663")
+		)
+	(
+			"wire"
+			("pts" ("xy" 368.3 574.04) ("xy" 378.46 574.04))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "bfcb70f0-04b3-424c-a89f-d81fdca300b2")
+		)
+	(
+			"wire"
+			("pts" ("xy" 368.3 579.12) ("xy" 378.46 579.12))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "3a00df69-57ab-4218-add2-d7330ab22ae4")
+		)
+	(
+			"wire"
+			("pts" ("xy" 313.69 673.1) ("xy" 308.61 673.1))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b5c101a2-1096-4d73-8b51-4d4adb9afe6a")
+		)
+	(
+			"wire"
+			("pts" ("xy" 321.31 673.1) ("xy" 326.39 673.1))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "17148e29-088e-4189-a1ad-9a6c8c9cc209")
+		)
+	(
+			"wire"
+			("pts" ("xy" 313.69 660.4) ("xy" 308.61 660.4))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "ad329260-0f72-4b39-80e7-8b6c0e9e1355")
+		)
+	(
+			"wire"
+			("pts" ("xy" 321.31 660.4) ("xy" 326.39 660.4))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "19f858da-be5f-41c0-a2c0-f71d770483d9")
+		)
+	(
+			"wire"
+			("pts" ("xy" 393.7 628.65) ("xy" 393.7 633.73))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "b976260b-a29d-4a84-9fea-2c74e616514c")
+		)
+	(
+			"wire"
+			("pts" ("xy" 393.7 621.03) ("xy" 393.7 615.95))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "f1511ec8-4ea8-4965-9891-2b3652433427")
+		)
+	(
+			"wire"
+			("pts" ("xy" 393.7 582.93) ("xy" 393.7 588.01))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "9762a2f7-2c81-4c16-88cf-bb7ace98c542")
+		)
+	(
+			"wire"
+			("pts" ("xy" 393.7 575.31) ("xy" 393.7 570.23))
+			("stroke" ("width" 0) ("type" default))
+			("uuid" "e5d31da2-113b-4ce1-b4be-abeac6651b7c")
+		)
+	(
+			"label"
+			"+12V_SW"
+			("at" 34 665.48 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "f97edc9a-92cf-4829-8d94-32e32b8134d4")
+		)
+	(
+			"label"
+			"GND"
+			("at" 38.1 636.27 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "4354c689-8cb7-4728-8a33-5013cf6e0197")
+		)
+	(
+			"label"
+			"GND"
+			("at" 35.56 642.62 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "8115231b-8579-44a0-a3ee-f85c0461fa57")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 106.68 645.16 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "313b83e5-fdd8-4b8f-872f-6a8ceb2ecdd7")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 127 660.4 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "f1fbf522-b813-4ad1-bb5f-fc6dc40388de")
+		)
+	(
+			"label"
+			"GND"
+			("at" 127 655.32 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "253e493d-d1dc-4c24-a87b-1e491f904657")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 127 650.24 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "ce20eda7-bbd9-4d51-9d16-814b38d86d40")
+		)
+	(
+			"label"
+			"GND"
+			("at" 127 645.16 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "86bc62f7-bd90-45bb-b1e1-e8cc9525e956")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 165.1 681.99 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "d62dae2e-df4d-4a77-acaa-23aef898e22d")
+		)
+	(
+			"label"
+			"GND"
+			("at" 165.1 659.13 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "268ad4c8-fbd9-42d8-949b-69cafe520282")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 180.34 674.37 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "3866c26d-a119-4720-8364-37adb0d958ba")
+		)
+	(
+			"label"
+			"GND"
+			("at" 180.34 656.59 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "4e71c8e7-fa05-4c7f-9abc-4294abcc890a")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 165.1 636.27 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "b3ebf279-37d3-46f7-91b1-6aaabe125119")
+		)
+	(
+			"label"
+			"GND"
+			("at" 165.1 613.41 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "a32bdf8d-52fc-4327-bc3d-7d3d7591a7c2")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 180.34 628.65 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "761e40ba-e63e-474a-a7aa-5ce190a8e897")
+		)
+	(
+			"label"
+			"GND"
+			("at" 180.34 610.87 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "a006c3e4-17a2-4f39-8ab3-c1abbb4a7326")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 83.82 574.04 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "9cdb91ee-58e9-4ae2-b09f-eb87b6cdef43")
+		)
+	(
+			"label"
+			"GND"
+			("at" 40.64 525.78 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "ce0a6d0f-48c7-4283-a6b8-f77571c771a2")
+		)
+	(
+			"label"
+			"GND"
+			("at" 55.88 525.78 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "2c3b1e63-9d46-4707-9df7-a828453d4c6f")
+		)
+	(
+			"label"
+			"DISK1_IO"
+			("at" 15.24 538.48 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "5b236f1b-d31f-4b63-b337-856f2a1a291b")
+		)
+	(
+			"label"
+			"GND"
+			("at" 154.94 543.56 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "7401e7f1-2990-4719-8613-a329ca405e2b")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 154.94 538.48 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "8fa24db6-93a2-40a9-b40e-3d9b8f130b8a")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 83.82 510.54 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "475cb2f7-7f8e-4c8a-9792-542e4a238dad")
+		)
+	(
+			"label"
+			"GND"
+			("at" 40.64 462.28 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "0342c94f-304a-4390-bef6-61159d0ad43c")
+		)
+	(
+			"label"
+			"GND"
+			("at" 55.88 462.28 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "d0b222c5-7e3f-42dd-9816-fe54154af0f8")
+		)
+	(
+			"label"
+			"DISK2_IO"
+			("at" 15.24 474.98 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "4112fa6b-e868-4b96-b9e2-929fae233bf9")
+		)
+	(
+			"label"
+			"GND"
+			("at" 154.94 480.06 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "a415a275-507a-42b7-b14f-761a132cecf6")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 154.94 474.98 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "872f5e71-6065-4a47-a2b6-426d78333908")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 83.82 447.04 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "c0b0e27e-03d7-4379-8f8a-5b621444694e")
+		)
+	(
+			"label"
+			"GND"
+			("at" 40.64 398.78 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "457f2a39-c4f4-4f39-8b8a-3e5388c10c5a")
+		)
+	(
+			"label"
+			"GND"
+			("at" 55.88 398.78 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "afbac6f9-379e-4fa4-a872-629180ffabb0")
+		)
+	(
+			"label"
+			"DISK3_IO"
+			("at" 15.24 411.48 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "f3c0dae7-e292-416d-8ca5-af9f58eb850e")
+		)
+	(
+			"label"
+			"GND"
+			("at" 154.94 416.56 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "4aba9f0d-604e-4bfe-8ed1-1f3071676034")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 154.94 411.48 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "419e75ec-8b5d-4563-a15b-4d3d24d34450")
+		)
+	(
+			"label"
+			"+12V_FUSED"
+			("at" 83.82 383.54 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "342e03a3-5307-4ae1-8f2c-3bbd28c8a2f4")
+		)
+	(
+			"label"
+			"GND"
+			("at" 40.64 335.28 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "d7b0a2d1-213d-4172-a9b0-d8d2f836fd29")
+		)
+	(
+			"label"
+			"GND"
+			("at" 55.88 335.28 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "7a5d6b7e-4e52-4c75-b530-f91f86cbaaeb")
+		)
+	(
+			"label"
+			"DISK4_IO"
+			("at" 15.24 347.98 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "3ae65c89-23e3-4680-bd06-3a59cbb563ac")
+		)
+	(
+			"label"
+			"GND"
+			("at" 154.94 353.06 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "3a1698b8-f442-4925-8d0a-f97a16adbf1a")
+		)
+	(
+			"label"
+			"+5V"
+			("at" 154.94 347.98 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "c766324a-d3b2-499e-a719-64c47406ac7b")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 287.02 646.43 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "edd49bad-3367-4924-94bf-edf9e674e59a")
+		)
+	(
+			"label"
+			"GND"
+			("at" 287.02 643.89 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "110ecc2d-29aa-4f31-970f-645cf73eb86c")
+		)
+	(
+			"label"
+			"GND"
+			("at" 287.02 638.81 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "cf39f3f2-05ad-4fb8-9448-c27ae6458903")
+		)
+	(
+			"label"
+			"SDA"
+			("at" 287.02 636.27 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "e577debc-74d7-4f44-bbef-3267e57882c0")
+		)
+	(
+			"label"
+			"SCL"
+			("at" 287.02 633.73 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "7dd32787-bd77-4fdf-ab23-b40dd6e7c375")
+		)
+	(
+			"label"
+			"GND"
+			("at" 287.02 631.19 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "11e67718-5b5f-4512-bd3c-b21513cb99fd")
+		)
+	(
+			"label"
+			"GND"
+			("at" 287.02 623.57 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "97bb8451-6612-4760-9ace-4183db79befc")
+		)
+	(
+			"label"
+			"GND"
+			("at" 330.2 652.78 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "fc5e0672-1ee3-4d77-9eaf-4b146cfbd6b1")
+		)
+	(
+			"label"
+			"GND"
+			("at" 330.2 650.24 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "f6b97664-2377-4f07-8a92-3a375616dea6")
+		)
+	(
+			"label"
+			"GND"
+			("at" 330.2 647.7 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "9e10d635-b64d-4879-b0f9-f8e85d85fee8")
+		)
+	(
+			"label"
+			"GND"
+			("at" 330.2 627.38 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "5bfb3188-8aa1-4ce3-9bfa-13557b5507bb")
+		)
+	(
+			"label"
+			"DISK1_IO"
+			("at" 327.66 642.62 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "fb327425-12c2-4aa6-9ec7-8c8c49b436ff")
+		)
+	(
+			"label"
+			"DISK2_IO"
+			("at" 327.66 640.08 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "f155453e-5b9f-4fd1-827d-65d69993edc7")
+		)
+	(
+			"label"
+			"DISK3_IO"
+			("at" 327.66 637.54 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "ca2d74f4-6c88-4778-9972-35c0f764bb82")
+		)
+	(
+			"label"
+			"DISK4_IO"
+			("at" 327.66 635 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "85f7df96-d8b3-42e6-b216-aa265d5315d1")
+		)
+	(
+			"label"
+			"SCL"
+			("at" 383.54 635 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "26b516d9-f539-44e5-b2d5-fc480387017c")
+		)
+	(
+			"label"
+			"SDA"
+			("at" 383.54 632.46 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "cafaa9bc-c471-4947-a92a-153fd6f32e55")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 383.54 627.38 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "1a16f667-c628-4b9e-8512-dc7520d0c50e")
+		)
+	(
+			"label"
+			"GND"
+			("at" 452.12 707.39 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "3df75c0e-9782-4f3a-8194-a61be7081624")
+		)
+	(
+			"label"
+			"GND"
+			("at" 452.12 687.07 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "cf6a5b61-25a5-435a-92a0-f65e0342695d")
+		)
+	(
+			"label"
+			"GND"
+			("at" 452.12 666.75 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "0403df04-954b-4689-a0de-775a4617b24d")
+		)
+	(
+			"label"
+			"GND"
+			("at" 452.12 646.43 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "c0627f40-08e2-482c-8266-6214a401df44")
+		)
+	(
+			"label"
+			"GND"
+			("at" 335.28 579.12 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "72ddea5a-bc14-4f8b-acee-2d21808b51de")
+		)
+	(
+			"label"
+			"GND"
+			("at" 335.28 576.58 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "a02d8893-8f8f-413f-87b7-e6a1333282bb")
+		)
+	(
+			"label"
+			"GND"
+			("at" 335.28 574.04 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "d2aec97f-01bd-4ffc-a0c8-7a1b4b5cdf38")
+		)
+	(
+			"label"
+			"GND"
+			("at" 335.28 571.5 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "635d96b5-6e91-44b5-9c0e-811678cc30cd")
+		)
+	(
+			"label"
+			"GND"
+			("at" 375.92 576.58 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "dceb0b47-15e2-48d7-a55b-5713d67392eb")
+		)
+	(
+			"label"
+			"SDA"
+			("at" 378.46 571.5 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "2d8485c1-565f-4c30-a2b1-ed8ddf445941")
+		)
+	(
+			"label"
+			"SCL"
+			("at" 378.46 574.04 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "db558af3-ce0b-4e06-9542-31b723a936cd")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 378.46 579.12 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "b168e827-b03c-4c6d-8d6d-0e2d5b35f9c7")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 308.61 673.1 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "be8dae05-20fe-4247-ba76-5310acebbde4")
+		)
+	(
+			"label"
+			"SDA"
+			("at" 326.39 673.1 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "32fd6d98-16c7-4adf-a67f-47cf872f9ef7")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 308.61 660.4 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "c850f529-1188-4ea4-a6be-f907c22b8cf4")
+		)
+	(
+			"label"
+			"SCL"
+			("at" 326.39 660.4 0)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "77903f29-001d-4f88-8b47-abee691deb6f")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 393.7 633.73 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "4b6a594e-8d3b-4348-a111-104435d32ed8")
+		)
+	(
+			"label"
+			"GND"
+			("at" 393.7 615.95 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "064a7c9b-8467-4817-b724-936e247631ef")
+		)
+	(
+			"label"
+			"+3V3_AUX"
+			("at" 393.7 588.01 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "85e5c969-58d4-45a8-a781-37dcbc454df1")
+		)
+	(
+			"label"
+			"GND"
+			("at" 393.7 570.23 90)
+			("effects" ("font" ("size" 1.27 1.27)) ("justify" left bottom))
+			("uuid" "3fdc73f3-31b3-4ec2-8b85-2c4045c98a1e")
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:TERM2")
+			("at" 25.4 660.4 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "2f2da513-61a1-47ef-987a-08705d326b40")
+			("property" "Reference" "J1" ("at" 30.48 662.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "12V_IN" ("at" 30.48 657.86 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Terminal_2_5.08"
+						("at" 25.4 660.4 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 25.4 660.4 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "5fe57ea2-156e-427c-95ff-c73c7242b80d"))
+			("pin" "2" ("uuid" "a1431df5-f437-47cd-a67f-4e665b6fd71b"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PMOS")
+			("at" 66.04 655.32 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "f70bde6d-3597-4e78-9377-a2b370f6c483")
+			("property" "Reference" "Q1" ("at" 71.12 657.86 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "IRF4905" ("at" 71.12 652.78 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:TO-220-3_Flat"
+						("at" 66.04 655.32 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 66.04 655.32 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "0d310bf2-8fc6-4f25-bf88-707968797473"))
+			("pin" "2" ("uuid" "4688c37a-b2a2-454a-92c7-8971399855c9"))
+			("pin" "3" ("uuid" "f5a0a6f9-8555-470c-90cc-c072d0788bea"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:DZ")
+			("at" 55.88 660.4 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "35955cb6-0b0b-4d56-8e13-7505a0bab445")
+			("property" "Reference" "D1" ("at" 60.96 662.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "BZT52C15" ("at" 60.96 657.86 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:D_SOD-123"
+						("at" 55.88 660.4 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 55.88 660.4 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "9b68e292-fb5b-44a6-a543-3d12d5bafe18"))
+			("pin" "2" ("uuid" "beb2bf25-1a7c-4842-bd6c-121bae41f311"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "D1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 38.1 645.16 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "cad270a2-42a8-43f3-8f7d-be7b679abf5d")
+			("property" "Reference" "R1" ("at" 43.18 647.7 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 43.18 642.62 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 38.1 645.16 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 38.1 645.16 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "3d4d3bc2-d233-4436-a65f-4d0cb41c0994"))
+			("pin" "2" ("uuid" "268db18c-8da4-4000-84ca-82fe64e1bb5f"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:FUSE")
+			("at" 91.44 645.16 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "1c6bf144-e3c6-4bbb-9ff8-ebaead132118")
+			("property" "Reference" "F1" ("at" 96.52 647.7 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "5A" ("at" 96.52 642.62 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Fuse_5x20"
+						("at" 91.44 645.16 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 91.44 645.16 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "ecb71d04-39a9-432b-98b9-0832e93139a6"))
+			("pin" "2" ("uuid" "5fb2e22e-54ff-4ca5-a589-d11a8305f6fc"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "F1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:HDR4")
+			("at" 142.24 652.78 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "19635353-5b36-413c-a803-59cf5cbdda3d")
+			("property" "Reference" "J2" ("at" 147.32 655.32 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "XL4015" ("at" 147.32 650.24 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:PinHeader_1x04"
+						("at" 142.24 652.78 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 142.24 652.78 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "2db1fa56-88cf-4a62-87c8-ccf23ea7b3b1"))
+			("pin" "2" ("uuid" "c5eb703b-9675-4082-91e2-c72a969cdd8b"))
+			("pin" "3" ("uuid" "38edeb6f-3f72-40a0-a375-32180e9f8c78"))
+			("pin" "4" ("uuid" "bb860257-f502-47a1-96d6-e05533c5454f"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J2") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:CP")
+			("at" 165.1 670.56 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "b7da30a5-91cf-4db2-af00-a5da977500ec")
+			("property" "Reference" "C1" ("at" 170.18 673.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100uF" ("at" 170.18 668.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:CP_Radial_6.3_P2.5"
+						("at" 165.1 670.56 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 165.1 670.56 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "adf18766-1f13-41e0-a819-757f97be90e0"))
+			("pin" "2" ("uuid" "57e9bc73-2c61-4080-bc8f-5b6f1a56aaa0"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:C")
+			("at" 180.34 665.48 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "260f2b10-f012-4e8f-ab5c-398246571a53")
+			("property" "Reference" "C2" ("at" 185.42 668.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100nF" ("at" 185.42 662.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:C_0805"
+						("at" 180.34 665.48 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 180.34 665.48 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "d7779712-f157-4504-bee9-7e7a790f45d4"))
+			("pin" "2" ("uuid" "efb951ee-0563-438a-bbdf-1b60d0add78e"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C2") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:CP")
+			("at" 165.1 624.84 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "88b5d042-6598-41a3-901a-fc363e9e8fff")
+			("property" "Reference" "C3" ("at" 170.18 627.38 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "220uF" ("at" 170.18 622.3 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:CP_Radial_8_P3.5"
+						("at" 165.1 624.84 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 165.1 624.84 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "a03b90cc-1f00-4d69-ba85-2032376738e8"))
+			("pin" "2" ("uuid" "a7f8c718-16e8-4f44-942e-ede6b3c3ef16"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C3") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:C")
+			("at" 180.34 619.76 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "a1faba16-8de3-48e9-80d9-711939cb50da")
+			("property" "Reference" "C4" ("at" 185.42 622.3 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100nF" ("at" 185.42 617.22 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:C_0805"
+						("at" 180.34 619.76 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 180.34 619.76 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "682a8231-1b5e-45e5-b28e-45a909a758ca"))
+			("pin" "2" ("uuid" "cdddf628-e992-4178-b740-fe89b9ed9b21"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C4") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PMOS")
+			("at" 83.82 558.8 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "867e559f-448e-4593-8830-86400706ab86")
+			("property" "Reference" "Q11" ("at" 88.9 561.34 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "IRF4905" ("at" 88.9 556.26 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:TO-220-3_Flat"
+						("at" 83.82 558.8 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 83.82 558.8 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "66043c3d-c0ec-4143-8c5f-3a71835de258"))
+			("pin" "2" ("uuid" "bd4f0dd6-f5bd-4c1d-bbe1-abf3ed7e33c4"))
+			("pin" "3" ("uuid" "878e1fd8-e722-4e1a-b444-ac43303270d3"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q11") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 66.04 565.15 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "92010395-b3a8-4915-bee4-e3b844f13a66")
+			("property" "Reference" "R11" ("at" 71.12 567.69 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 71.12 562.61 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 66.04 565.15 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 66.04 565.15 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "ddafc27c-cad8-49ee-ac6b-aed047372010"))
+			("pin" "2" ("uuid" "431469f8-8f7f-4fb2-93d0-d875bdb57032"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R11") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:NMOS")
+			("at" 55.88 538.48 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "e7fe72ea-83fd-437d-9562-e907cb5a1aef")
+			("property" "Reference" "Q12" ("at" 60.96 541.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "2N7002" ("at" 60.96 535.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOT-23"
+						("at" 55.88 538.48 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 55.88 538.48 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "b54b556e-ca96-4ad4-bc6b-e1e9d8300b05"))
+			("pin" "2" ("uuid" "59210169-a5b1-4ba2-b880-b52875b229ae"))
+			("pin" "3" ("uuid" "51ffcce0-0b3c-410a-9678-4f8932a43347"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q12") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 40.64 534.67 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "92b163c5-d700-4046-be7e-62ae256449b2")
+			("property" "Reference" "R12" ("at" 45.72 537.21 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 45.72 532.13 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 40.64 534.67 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 40.64 534.67 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "20c17f22-7a50-4b92-bf02-c24bbe6e84b7"))
+			("pin" "2" ("uuid" "8a7c82ba-8f18-4343-b50f-53bd9b3e360a"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R12") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 25.4 538.48 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "3d30c846-d7a7-4950-be1a-622bfcccc16b")
+			("property" "Reference" "R13" ("at" 30.48 541.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "1k" ("at" 30.48 535.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 25.4 538.48 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 25.4 538.48 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "c8732e32-c30c-4754-8b9f-46959b686087"))
+			("pin" "2" ("uuid" "5bab7965-ef09-4497-9541-4a1256e81c48"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R13") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:POLY")
+			("at" 114.3 548.64 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "71863b35-2242-43f2-a87e-c410bc3ac590")
+			("property" "Reference" "F11" ("at" 119.38 551.18 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "3A" ("at" 119.38 546.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Polyfuse_1812"
+						("at" 114.3 548.64 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 114.3 548.64 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "824b293a-8d0d-4b6b-8644-f0a3d042af59"))
+			("pin" "2" ("uuid" "7937029c-cb3b-43b8-8b58-aefd0c93d5cf"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "F11") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:TERM3")
+			("at" 172.72 543.56 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "2d4afd1a-401b-4859-91e6-8bd3d3731503")
+			("property" "Reference" "J11" ("at" 177.8 546.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "DISK1" ("at" 177.8 541.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Terminal_3_5.08"
+						("at" 172.72 543.56 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 172.72 543.56 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "9a6d3e1e-472e-49b8-a78b-e09ab91f90ab"))
+			("pin" "2" ("uuid" "37565967-dd3a-44f2-9013-bd455e301e3b"))
+			("pin" "3" ("uuid" "dd32b1b1-568a-4952-8d20-53600087b509"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J11") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PMOS")
+			("at" 83.82 495.3 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "719ae344-2e37-4c72-839a-19b03d3d0975")
+			("property" "Reference" "Q21" ("at" 88.9 497.84 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "IRF4905" ("at" 88.9 492.76 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:TO-220-3_Flat"
+						("at" 83.82 495.3 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 83.82 495.3 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "ea7f8f62-15cd-410f-bf7c-7764c3c7871d"))
+			("pin" "2" ("uuid" "7d063ba7-49d7-49f5-b74e-541c713e6589"))
+			("pin" "3" ("uuid" "f7b6b4fa-cedb-4e15-bd53-e238bdfbc9b1"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q21") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 66.04 501.65 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "3fced894-74b4-4012-9f92-480a214205aa")
+			("property" "Reference" "R21" ("at" 71.12 504.19 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 71.12 499.11 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 66.04 501.65 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 66.04 501.65 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "f8f2675b-b643-45cc-a07f-f9dcb4bcf437"))
+			("pin" "2" ("uuid" "06e39ac9-749e-4708-8e7c-6bfcb918a846"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R21") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:NMOS")
+			("at" 55.88 474.98 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "d89fd429-55d4-4d6d-a403-4169d1676eb6")
+			("property" "Reference" "Q22" ("at" 60.96 477.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "2N7002" ("at" 60.96 472.44 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOT-23"
+						("at" 55.88 474.98 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 55.88 474.98 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "af2fd16a-616e-4c79-a7cf-06d691028498"))
+			("pin" "2" ("uuid" "1b79e5c2-2922-41c7-81cc-57d90b46e565"))
+			("pin" "3" ("uuid" "b9b639d6-5b7c-40b7-93d8-776267fe10fc"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q22") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 40.64 471.17 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "ada26e29-126e-4736-b6ce-3ccd1a366954")
+			("property" "Reference" "R22" ("at" 45.72 473.71 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 45.72 468.63 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 40.64 471.17 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 40.64 471.17 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "c144ba3f-a8d6-4558-8831-46eac31f5d7f"))
+			("pin" "2" ("uuid" "bd7d8616-a0d4-433b-8783-0c3a959c29a9"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R22") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 25.4 474.98 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "6520f501-9e00-42b2-85b2-5c7cce3c99f3")
+			("property" "Reference" "R23" ("at" 30.48 477.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "1k" ("at" 30.48 472.44 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 25.4 474.98 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 25.4 474.98 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "1ccb49d0-44ba-4a10-96d7-9d9b464c7689"))
+			("pin" "2" ("uuid" "e95e0fd5-e5ac-4469-9121-536b3bc719c1"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R23") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:POLY")
+			("at" 114.3 485.14 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "ef111497-061d-4379-a8af-7be47a6c0217")
+			("property" "Reference" "F21" ("at" 119.38 487.68 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "3A" ("at" 119.38 482.6 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Polyfuse_1812"
+						("at" 114.3 485.14 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 114.3 485.14 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "a0e5be41-917d-48ec-a776-1cd11c854901"))
+			("pin" "2" ("uuid" "af83f40e-a46a-4804-81a4-f3933d400ec7"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "F21") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:TERM3")
+			("at" 172.72 480.06 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "95a2e1d1-8cc7-412d-bfc8-22b7c5c58bee")
+			("property" "Reference" "J21" ("at" 177.8 482.6 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "DISK2" ("at" 177.8 477.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Terminal_3_5.08"
+						("at" 172.72 480.06 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 172.72 480.06 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "63c35648-30c0-4041-a73e-5311799d9171"))
+			("pin" "2" ("uuid" "5c01c046-d82a-4de0-b7e0-62e600b23668"))
+			("pin" "3" ("uuid" "4fc85dd1-daa1-4e4e-af8e-1c464ca319e8"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J21") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PMOS")
+			("at" 83.82 431.8 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "2aaec9cd-51a2-4772-857d-7c3d40011bb7")
+			("property" "Reference" "Q31" ("at" 88.9 434.34 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "IRF4905" ("at" 88.9 429.26 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:TO-220-3_Flat"
+						("at" 83.82 431.8 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 83.82 431.8 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "50e0c8e5-5d3b-4326-a934-e0dd95f7c1b2"))
+			("pin" "2" ("uuid" "4ad39ea9-ac9b-4556-80be-dfcbc929fa71"))
+			("pin" "3" ("uuid" "9aba20d3-b058-4296-9005-947b8b607f86"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q31") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 66.04 438.15 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "39b0e9bf-4b42-4caf-bc09-23e83f7e53f9")
+			("property" "Reference" "R31" ("at" 71.12 440.69 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 71.12 435.61 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 66.04 438.15 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 66.04 438.15 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "0bbff649-3b85-4e08-9294-7dbb4879a1f7"))
+			("pin" "2" ("uuid" "715d0c56-6c53-4ff1-99a4-92ffd63c7e2d"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R31") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:NMOS")
+			("at" 55.88 411.48 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "59ea1c6f-3491-4ae2-8fa4-c69a29cf5913")
+			("property" "Reference" "Q32" ("at" 60.96 414.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "2N7002" ("at" 60.96 408.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOT-23"
+						("at" 55.88 411.48 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 55.88 411.48 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "8f0cc48c-04c8-4288-aa87-d82aff870ac4"))
+			("pin" "2" ("uuid" "6006e49b-4399-4f5c-afc3-8a22157e557c"))
+			("pin" "3" ("uuid" "56374e35-08b0-4990-8eef-7d018357ff90"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q32") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 40.64 407.67 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "1aa3cb36-480b-47b9-a16e-4cb329342159")
+			("property" "Reference" "R32" ("at" 45.72 410.21 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 45.72 405.13 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 40.64 407.67 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 40.64 407.67 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "7348fe4f-55be-446f-9a09-1d1967a2e475"))
+			("pin" "2" ("uuid" "fa8f9c78-4b68-44cc-a4be-c737e6cd26de"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R32") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 25.4 411.48 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "20b06a8e-a0e9-45f9-b5df-56dec8215240")
+			("property" "Reference" "R33" ("at" 30.48 414.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "1k" ("at" 30.48 408.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 25.4 411.48 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 25.4 411.48 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "bb243aab-0a00-47b8-b4e0-fa9ab6df2838"))
+			("pin" "2" ("uuid" "8615c48f-c820-4df4-b132-1b54fcb4a24a"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R33") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:POLY")
+			("at" 114.3 421.64 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "138686a7-310b-4bb4-852f-d98fe39093f8")
+			("property" "Reference" "F31" ("at" 119.38 424.18 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "3A" ("at" 119.38 419.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Polyfuse_1812"
+						("at" 114.3 421.64 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 114.3 421.64 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "358b9bd4-458a-4013-a7c2-499c25fd49e8"))
+			("pin" "2" ("uuid" "6a7d3122-f5a0-4b9a-9692-a9aa184e98df"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "F31") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:TERM3")
+			("at" 172.72 416.56 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "3b43bbb7-3d1a-4646-894b-75a3a536fcb1")
+			("property" "Reference" "J31" ("at" 177.8 419.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "DISK3" ("at" 177.8 414.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Terminal_3_5.08"
+						("at" 172.72 416.56 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 172.72 416.56 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "49b3f9d9-98f4-4bef-9fa6-0983cafd4a62"))
+			("pin" "2" ("uuid" "f08ef09c-bb7f-4b68-8b96-9e544e672baa"))
+			("pin" "3" ("uuid" "ae3d2844-f779-46d0-ad04-4179ccc53330"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J31") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PMOS")
+			("at" 83.82 368.3 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "fb97523c-0cd5-4e60-baed-0f26d22adcfb")
+			("property" "Reference" "Q41" ("at" 88.9 370.84 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "IRF4905" ("at" 88.9 365.76 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:TO-220-3_Flat"
+						("at" 83.82 368.3 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 83.82 368.3 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "c7e9de67-ac56-49cf-9c9e-f58011a9dca9"))
+			("pin" "2" ("uuid" "83f64800-370d-475e-b747-8622996543aa"))
+			("pin" "3" ("uuid" "0579c702-f416-484a-8358-bd4d49237751"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q41") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 66.04 374.65 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "c221c222-cfac-4932-94a6-5e4dbc4c9cbe")
+			("property" "Reference" "R41" ("at" 71.12 377.19 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 71.12 372.11 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 66.04 374.65 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 66.04 374.65 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "11064970-684f-41f1-9e62-80946d6cc838"))
+			("pin" "2" ("uuid" "d1823b87-acd1-444e-8d9a-97a9ef803035"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R41") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:NMOS")
+			("at" 55.88 347.98 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "de736bd3-9310-4d4b-9721-6cae36227a38")
+			("property" "Reference" "Q42" ("at" 60.96 350.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "2N7002" ("at" 60.96 345.44 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOT-23"
+						("at" 55.88 347.98 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 55.88 347.98 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "5bf901a2-271c-4de2-b03d-55505652161b"))
+			("pin" "2" ("uuid" "b338151f-caa0-4394-a598-de8e2267d64c"))
+			("pin" "3" ("uuid" "36ac8ea7-0eb1-4aec-a408-23b086febf99"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "Q42") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 40.64 344.17 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "e6c3def5-d6dc-441f-9752-24baef20a7dc")
+			("property" "Reference" "R42" ("at" 45.72 346.71 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 45.72 341.63 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 40.64 344.17 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 40.64 344.17 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "d227fcd9-8f14-4978-b44b-21167f015c78"))
+			("pin" "2" ("uuid" "634028f6-ec31-4b53-b558-29266f1e07ce"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R42") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 25.4 347.98 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "6a989758-3ae6-4f7e-8d84-f86c59b0e3fd")
+			("property" "Reference" "R43" ("at" 30.48 350.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "1k" ("at" 30.48 345.44 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 25.4 347.98 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 25.4 347.98 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "3c95d091-ff91-43b3-8f17-258f5becb62b"))
+			("pin" "2" ("uuid" "f6e2ab83-2b76-4568-8e5b-0d25e718b16c"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R43") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:POLY")
+			("at" 114.3 358.14 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "1ab85820-5501-45a2-b30e-90e1a9ef2371")
+			("property" "Reference" "F41" ("at" 119.38 360.68 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "3A" ("at" 119.38 355.6 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Polyfuse_1812"
+						("at" 114.3 358.14 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 114.3 358.14 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "a10e9c74-fdbf-4a3f-91ac-22030c4f22a6"))
+			("pin" "2" ("uuid" "f10a19dc-8f87-48a4-9138-3dcb282115e4"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "F41") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:TERM3")
+			("at" 172.72 353.06 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "697ebbf3-fc71-481b-8c22-2da44c3315c1")
+			("property" "Reference" "J41" ("at" 177.8 355.6 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "DISK4" ("at" 177.8 350.52 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:Terminal_3_5.08"
+						("at" 172.72 353.06 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 172.72 353.06 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "37ac1674-dc33-4584-b42a-de496585ea5d"))
+			("pin" "2" ("uuid" "b2aa363a-1192-46ef-97c6-4b86f9dc7c22"))
+			("pin" "3" ("uuid" "2af228fe-eb69-4f27-a0d2-4815d8343bd6"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J41") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:H2X5")
+			("at" 266.7 635 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "2a2557fe-056b-44e5-869b-27b2196bdb49")
+			("property" "Reference" "J3" ("at" 271.78 637.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "SLOT" ("at" 271.78 632.46 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:PinSocket_2x05"
+						("at" 266.7 635 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 266.7 635 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "ea6681e1-da23-4881-a9c2-d5f5627c37dc"))
+			("pin" "2" ("uuid" "1ef805fb-6ada-451c-bb2a-10e75c39a431"))
+			("pin" "3" ("uuid" "fd46029b-8062-4f3b-b570-7a1fa541a231"))
+			("pin" "4" ("uuid" "7b3f0e81-68f2-439b-8c3d-982875d78258"))
+			("pin" "5" ("uuid" "82d79a21-c735-42a6-a36f-716ceccc0147"))
+			("pin" "6" ("uuid" "c4b54985-090c-404e-b559-ce2371777f76"))
+			("pin" "7" ("uuid" "2b1d213c-25fb-4c14-ab58-3058f92a406f"))
+			("pin" "8" ("uuid" "4b29a0cc-9234-4a2b-8e4a-6a947b1140e5"))
+			("pin" "9" ("uuid" "c0397d69-518c-414a-93da-ae03be414384"))
+			("pin" "10" ("uuid" "b17922bd-f9f9-4fdb-b526-438f6f48b88c"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "J3") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:PCA9554")
+			("at" 355.6 635 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "389b30c4-41ea-4281-a31d-3c6c712e8f10")
+			("property" "Reference" "U1" ("at" 360.68 637.54 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "PCA9554" ("at" 360.68 632.46 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOIC-16W"
+						("at" 355.6 635 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 355.6 635 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "3dbe7c66-8637-44cc-83d3-ee98da73eb3e"))
+			("pin" "2" ("uuid" "f3aef132-7df7-4123-96ff-ebe3d858debc"))
+			("pin" "3" ("uuid" "081cec70-d507-4d5d-b436-b573ec19e9ad"))
+			("pin" "4" ("uuid" "e58fe910-38a0-45bc-9274-64b80d5265f5"))
+			("pin" "5" ("uuid" "3938e3b5-3fd1-4ed9-b347-147bdd6b9094"))
+			("pin" "6" ("uuid" "1bdcd0bb-1288-4b88-b946-caae05cd5d4a"))
+			("pin" "7" ("uuid" "32755f91-cd4a-49ab-83a7-8b08516a668e"))
+			("pin" "8" ("uuid" "0fef3677-8a14-4ec6-a8b3-bfce622f5a74"))
+			("pin" "9" ("uuid" "67123df8-bf30-4a61-9e70-a86af888c1f5"))
+			("pin" "10" ("uuid" "c82c4b31-2e43-4d67-8724-2b82490ee064"))
+			("pin" "11" ("uuid" "1a4fe81f-8bcc-488d-8ba9-40ab09bc95dd"))
+			("pin" "12" ("uuid" "7073a901-ef5e-4e64-b063-e8b2dc939858"))
+			("pin" "13" ("uuid" "27c08359-b120-41de-81b6-2d1c556817e3"))
+			("pin" "14" ("uuid" "9e83863e-b194-4fdc-a3bd-c335389fc210"))
+			("pin" "15" ("uuid" "b9382ee8-99c4-49f7-8af3-3fb23a7f7386"))
+			("pin" "16" ("uuid" "eb51fef3-4cad-4e70-8533-d3e90ca5229d"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "U1") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:AT24C02")
+			("at" 355.6 571.5 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "2d2265c7-4d6a-4bab-bcde-2f374b150074")
+			("property" "Reference" "U2" ("at" 360.68 574.04 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "AT24C02" ("at" 360.68 568.96 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:SOIC-8"
+						("at" 355.6 571.5 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 355.6 571.5 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "9fa0b391-78c4-494a-a4eb-7f9fe3d06cc8"))
+			("pin" "2" ("uuid" "0d5ca4a2-1fee-49ac-9eaf-9a9c7dfff4ba"))
+			("pin" "3" ("uuid" "e4005c40-b3f5-494d-8f90-dadd41697700"))
+			("pin" "4" ("uuid" "e864b6c3-825c-4e2f-af0a-06be4c76c3df"))
+			("pin" "5" ("uuid" "0fbc32ad-74d5-4849-9dab-ffb030b97d5b"))
+			("pin" "6" ("uuid" "68cf7c8a-1bf8-439b-9224-bbbfa3640b12"))
+			("pin" "7" ("uuid" "654e08e7-c714-462e-8c57-cb79683022a5"))
+			("pin" "8" ("uuid" "29c7af63-5175-4d32-b420-4730d4d53e6a"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "U2") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:C")
+			("at" 393.7 624.84 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "dc7a6992-1fff-451e-86fc-66be068378e1")
+			("property" "Reference" "C5" ("at" 398.78 627.38 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100nF" ("at" 398.78 622.3 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:C_0805"
+						("at" 393.7 624.84 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 393.7 624.84 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "b43ac076-8668-4783-b92e-0ff64313f846"))
+			("pin" "2" ("uuid" "848d9c3a-2e9a-4b95-8cdc-c7276efcfe7c"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C5") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:C")
+			("at" 393.7 579.12 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "775ad67d-84b6-487a-a0a1-48a3e70bc67f")
+			("property" "Reference" "C6" ("at" 398.78 581.66 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100nF" ("at" 398.78 576.58 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:C_0805"
+						("at" 393.7 579.12 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 393.7 579.12 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "7bf11418-496b-43d2-b7cd-641b8887c98b"))
+			("pin" "2" ("uuid" "b512ad9d-f2dc-436d-8d63-d20ca4e4518b"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "C6") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 317.5 673.1 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "eb8d605f-1591-4c7c-a83a-d148f495f4c7")
+			("property" "Reference" "R2" ("at" 322.58 675.64 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "4.7k" ("at" 322.58 670.56 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 317.5 673.1 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 317.5 673.1 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "d7ed04b3-3af0-4099-a8e0-0ce25d617a66"))
+			("pin" "2" ("uuid" "8334227c-56d1-4287-bf26-f19bac89fd0a"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R2") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:RH")
+			("at" 317.5 660.4 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "bffca838-17df-44f2-8ae3-ddf5b4649146")
+			("property" "Reference" "R3" ("at" 322.58 662.94 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "4.7k" ("at" 322.58 657.86 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 317.5 660.4 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 317.5 660.4 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "2837c33c-7a76-4b92-a921-71ff4c1757ae"))
+			("pin" "2" ("uuid" "ecf44c97-e7d0-4f00-96e3-ec5891fa0c38"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R3") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 441.96 711.2 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "c0a617c8-77ab-4dc4-ba71-ba4fa668f892")
+			("property" "Reference" "R4" ("at" 447.04 713.74 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 447.04 708.66 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 441.96 711.2 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 441.96 711.2 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "d28d7052-cd8d-4e16-b9a3-c236523502ce"))
+			("pin" "2" ("uuid" "6966fe1e-3aa4-4f7c-9de5-0b8465445cad"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R4") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 441.96 690.88 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "e226634f-6f30-45cd-8f2f-a4b10491674f")
+			("property" "Reference" "R5" ("at" 447.04 693.42 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 447.04 688.34 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 441.96 690.88 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 441.96 690.88 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "bfc6c7f7-d331-4195-a59d-9aa87ca80c73"))
+			("pin" "2" ("uuid" "4f7f820a-5735-4dbb-94a6-760af145a8f2"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R5") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 441.96 670.56 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "85c3ea81-5c48-4e0e-b992-23407f12dffa")
+			("property" "Reference" "R6" ("at" 447.04 673.1 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 447.04 668.02 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 441.96 670.56 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 441.96 670.56 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "fb96ab88-d0d6-4772-b5f7-2ba95984d611"))
+			("pin" "2" ("uuid" "a1ae8b7f-4bea-46ea-a6fb-f4474e4ea71a"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R6") ("unit" 1))
+									)
+					)
+		)
+	(
+			"symbol"
+			("lib_id" "sata-board:R")
+			("at" 441.96 650.24 0)
+			("unit" 1)
+			("exclude_from_sim" no)
+			("in_bom" yes)
+			("on_board" yes)
+			("dnp" no)
+			("uuid" "0d05871c-cadb-4ba4-bef7-cf84334d9df5")
+			("property" "Reference" "R7" ("at" 447.04 652.78 0) ("effects" ("font" ("size" 1.27 1.27))))
+			("property" "Value" "100k" ("at" 447.04 647.7 0) ("effects" ("font" ("size" 1.27 1.27))))
+			(
+						"property"
+						"Footprint"
+						"sata-board:R_0805"
+						("at" 441.96 650.24 0)
+						("effects" ("font" ("size" 1.27 1.27)) hide)
+					)
+			("property" "Datasheet" "~" ("at" 441.96 650.24 0) ("effects" ("font" ("size" 1.27 1.27)) hide))
+			("pin" "1" ("uuid" "9f0eb8db-e1fd-4307-aecd-05185b303373"))
+			("pin" "2" ("uuid" "ddb2724c-eb4e-408f-a31b-f5330a397262"))
+			(
+						"instances"
+						(
+										"project"
+										"sata-board"
+										("path" "/694368bc-6724-4033-b677-e72e1d63d893" ("reference" "R7") ("unit" 1))
+									)
+					)
+		)
+	("sheet_instances" ("path" "/" ("page" "1")))
+)

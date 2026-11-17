@@ -1,0 +1,64 @@
+(
+	"footprint"
+	"Fuse_5x20"
+	("version" 20240108)
+	("generator" "pcbnew")
+	("generator_version" "8.0")
+	("layer" "F.Cu")
+	("descr" "Fuse_5x20")
+	("attr" through_hole)
+	(
+			"fp_text"
+			reference
+			"REF**"
+			("at" 0 3.2 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_text"
+			value
+			"Fuse_5x20"
+			("at" 0 -2.4 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_line"
+			("start" 2.2 -2.6)
+			("end" 23.2 -2.6)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 23.2 -2.6)
+			("end" 23.2 2.6)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 23.2 2.6)
+			("end" 2.2 2.6)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" 2.2 2.6)
+			("end" 2.2 -2.6)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_text"
+			user
+			"5A T"
+			("at" 12.7 3.2 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.9 0.9) ("thickness" 0.135)))
+		)
+	("pad" "1" thru_hole circle ("at" 0 0) ("size" 3 3) ("drill" 1.3) ("layers" "*.Cu" "*.Mask"))
+	("pad" "2" thru_hole circle ("at" 25.4 0) ("size" 3 3) ("drill" 1.3) ("layers" "*.Cu" "*.Mask"))
+)

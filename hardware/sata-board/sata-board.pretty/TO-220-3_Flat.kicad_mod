@@ -1,0 +1,110 @@
+(
+	"footprint"
+	"TO-220-3_Flat"
+	("version" 20240108)
+	("generator" "pcbnew")
+	("generator_version" "8.0")
+	("layer" "F.Cu")
+	("descr" "TO-220-3_Flat")
+	("attr" through_hole)
+	(
+			"fp_text"
+			reference
+			"REF**"
+			("at" 0 3.2 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_text"
+			value
+			"TO-220-3_Flat"
+			("at" 0 -2.4 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	(
+			"fp_line"
+			("start" -16 -5.2)
+			("end" -6 -5.2)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -6 -5.2)
+			("end" -6 5.2)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -6 5.2)
+			("end" -16 5.2)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -16 5.2)
+			("end" -16 -5.2)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -3.5 2.54)
+			("end" -0.6 2.54)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -3.5 0)
+			("end" -0.6 0)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_line"
+			("start" -3.5 -2.54)
+			("end" -0.6 -2.54)
+			("stroke" ("width" 0.12) ("type" solid))
+			("layer" "F.SilkS")
+		)
+	(
+			"fp_text"
+			user
+			"G"
+			("at" 1.6 2.54 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.6 0.6) ("thickness" 0.09)))
+		)
+	(
+			"fp_text"
+			user
+			"D"
+			("at" 1.6 0 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.6 0.6) ("thickness" 0.09)))
+		)
+	(
+			"fp_text"
+			user
+			"S"
+			("at" 1.6 -2.54 0)
+			("layer" "F.Fab")
+			("effects" ("font" ("size" 0.6 0.6) ("thickness" 0.09)))
+		)
+	(
+			"fp_text"
+			user
+			"TAB UP"
+			("at" -16 0 0)
+			("layer" "F.SilkS")
+			("effects" ("font" ("size" 0.7 0.7) ("thickness" 0.105)))
+		)
+	("pad" "1" thru_hole circle ("at" 0 2.54) ("size" 2 2) ("drill" 1.1) ("layers" "*.Cu" "*.Mask"))
+	("pad" "2" thru_hole circle ("at" 0 0) ("size" 2 2) ("drill" 1.1) ("layers" "*.Cu" "*.Mask"))
+	("pad" "3" thru_hole circle ("at" 0 -2.54) ("size" 2 2) ("drill" 1.1) ("layers" "*.Cu" "*.Mask"))
+)
