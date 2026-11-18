@@ -1,25 +1,28 @@
+import os
+import select
+import termios
+import time
+import tty
 from typing import Protocol
 
 from sata_library.errors import LibraryError
-from sata_library.model import Snapshot
+from sata_library.model import ShelfState
 
-_Z = {"retracted", "between", "mated"}
+_BAUD = 115200
 
 
 class Transport(Protocol):
-    def state(self) -> Snapshot: ...
+    def state(self) -> ShelfState: ...
 
     def estop(self) -> None: ...
 
-    def home(self) -> None: ...
+    def slot_on(self, slot: int) -> None: ...
 
-    def seek(self, bay_id: int) -> None: ...
+    def slot_off(self, slot: int) -> None: ...
 
-    def mate(self) -> None: ...
+    def disk_on(self, slot: int, index: int) -> None: ...
 
-    def retract(self) -> None: ...
-
-    def set_power(self, on: bool) -> None: ...
+    def disk_off(self, slot: int, index: int) -> None: ...
 
 
 class Link(Protocol):
@@ -29,99 +32,93 @@ class Link(Protocol):
 
 
 class MockTransport:
-    """Контроллер в памяти. Повторяет те же запреты, что должны быть в прошивке."""
+    """Контроллер в памяти. Те же запреты, что в прошивке: один слот, диск только на включённом слоте."""
 
     def __init__(self) -> None:
-        self.bay: int | None = None
-        self.z = "retracted"
-        self.power = False
+        self.slots = [False, False, False, False]
+        self.present = [True, True, True, True]
+        self.eeprom = [True, True, True, True]
+        self.disks = [False, False, False, False]
         self.fault = False
-        self.fail_retract = False
+        self.fail_release = False
         self.commands: list[str] = []
 
-    def state(self) -> Snapshot:
-        return Snapshot(self.bay, self.z, self.power)
+    def state(self) -> ShelfState:
+        return ShelfState(tuple(self.slots), tuple(self.present), tuple(self.disks))
 
     def estop(self) -> None:
         self.fault = True
-        self.power = False
-        self.commands.append("estop")
+        self.slots = [False, False, False, False]
+        self.disks = [False, False, False, False]
+        self.commands.append("ESTOP")
 
-    def home(self) -> None:
+    def slot_on(self, slot: int) -> None:
         self._ready()
-        self._require_parked("домой только с отведённым разъёмом и без питания")
-        self.bay = None
-        self.commands.append("home")
+        _place(slot)
+        if not self.present[slot - 1]:
+            raise LibraryError("not_present", "absent")
+        self.slots = [False, False, False, False]
+        self.disks = [False, False, False, False]
+        self.slots[slot - 1] = True
+        self.commands.append(f"SLOT {slot} ON")
+        if not self.eeprom[slot - 1]:
+            self.slots[slot - 1] = False
+            raise LibraryError("no_eeprom", "magic")
 
-    def seek(self, bay_id: int) -> None:
+    def slot_off(self, slot: int) -> None:
         self._ready()
-        self._require_parked("перед ходом выбора разъём должен быть отведён, питание выключено")
-        if bay_id < 1:
-            raise LibraryError("bad_bay", "номер отсека начинается с 1")
-        self.bay = bay_id
-        self.commands.append(f"seek {bay_id}")
+        _place(slot)
+        if self.slots[slot - 1]:
+            self.slots[slot - 1] = False
+            self.disks = [False, False, False, False]
+        self.commands.append(f"SLOT {slot} OFF")
 
-    def mate(self) -> None:
-        self._ready()
-        if self.bay is None:
-            raise LibraryError("not_aligned", "стыковка не на отсеке")
-        if self.power:
-            raise LibraryError("power_on", "стыковка при включённом питании")
-        self.z = "mated"
-        self.commands.append("mate")
+    def disk_on(self, slot: int, index: int) -> None:
+        self._disk(slot, index, True)
 
-    def retract(self) -> None:
-        self._ready()
-        if self.power:
-            raise LibraryError("power_on", "нельзя отводить разъём под питанием")
-        self.commands.append("retract")
-        if self.fail_retract:
-            self.z = "between"
-            raise LibraryError("retract_failed", "концевик отведённого разъёма не сработал")
-        self.z = "retracted"
+    def disk_off(self, slot: int, index: int) -> None:
+        self._disk(slot, index, False)
 
-    def set_power(self, on: bool) -> None:
+    def _disk(self, slot: int, index: int, on: bool) -> None:
         self._ready()
-        if on and self.z != "mated":
-            raise LibraryError("not_mated", "питание только после стыковки")
-        self.power = bool(on)
-        self.commands.append(f"power {1 if self.power else 0}")
+        _place(slot)
+        _place(index)
+        if not self.slots[slot - 1]:
+            raise LibraryError("slot_off", "off")
+        if not on and self.fail_release:
+            self.commands.append(f"DISK {slot} {index} OFF")
+            raise LibraryError("i2c", "fail")
+        self.disks[index - 1] = on
+        self.commands.append(f"DISK {slot} {index} {'ON' if on else 'OFF'}")
 
     def _ready(self) -> None:
         if self.fault:
             raise LibraryError("fault", "контроллер в аварии")
 
-    def _require_parked(self, message: str) -> None:
-        if self.z != "retracted" or self.power:
-            raise LibraryError("not_parked", message)
-
 
 class LineTransport:
-    """Текстовый протокол к контроллеру. Поток подставляет тест или будущий порт."""
+    """Текстовый протокол hardware/INTERFACE.md. Поток — порт или подстановка теста."""
 
     def __init__(self, link: Link) -> None:
         self.link = link
 
-    def state(self) -> Snapshot:
+    def state(self) -> ShelfState:
         return parse_state(self._roundtrip("STATE"))
 
     def estop(self) -> None:
         self._roundtrip("ESTOP")
 
-    def home(self) -> None:
-        self._roundtrip("HOME")
+    def slot_on(self, slot: int) -> None:
+        self._roundtrip(f"SLOT {slot} ON")
 
-    def seek(self, bay_id: int) -> None:
-        self._roundtrip(f"SEEK {bay_id}")
+    def slot_off(self, slot: int) -> None:
+        self._roundtrip(f"SLOT {slot} OFF")
 
-    def mate(self) -> None:
-        self._roundtrip("MATE")
+    def disk_on(self, slot: int, index: int) -> None:
+        self._roundtrip(f"DISK {slot} {index} ON")
 
-    def retract(self) -> None:
-        self._roundtrip("RETRACT")
-
-    def set_power(self, on: bool) -> None:
-        self._roundtrip(f"POWER {1 if on else 0}")
+    def disk_off(self, slot: int, index: int) -> None:
+        self._roundtrip(f"DISK {slot} {index} OFF")
 
     def _roundtrip(self, command: str) -> str:
         self.link.send(command)
@@ -135,9 +132,62 @@ class LineTransport:
         return reply
 
 
-def parse_state(reply: str) -> Snapshot:
+class SerialLink:
+    """UART 115200 8N1. Ответ — одна строка, без неё это ошибка, не пустой успех."""
+
+    def __init__(self, port: str, timeout_s: float = 2.0) -> None:
+        try:
+            self._fd = os.open(port, os.O_RDWR | os.O_NOCTTY | os.O_CLOEXEC)
+        except OSError as exc:
+            raise LibraryError("not_connected", f"не открывается {port}") from exc
+        self._timeout = timeout_s
+        self._buf = b""
+        try:
+            self._configure()
+        except Exception:
+            os.close(self._fd)
+            raise
+
+    def close(self) -> None:
+        os.close(self._fd)
+
+    def send(self, command: str) -> None:
+        os.write(self._fd, (command + "\n").encode())
+
+    def recv(self) -> str:
+        deadline = time.monotonic() + self._timeout
+        while b"\n" not in self._buf:
+            remain = deadline - time.monotonic()
+            if remain <= 0:
+                raise LibraryError("no_reply", "контроллер не ответил")
+            ready, _, _ = select.select([self._fd], [], [], remain)
+            if not ready:
+                raise LibraryError("no_reply", "контроллер не ответил")
+            try:
+                chunk = os.read(self._fd, 128)
+            except OSError as exc:
+                raise LibraryError("not_connected", "порт оборвался") from exc
+            if chunk == b"":
+                raise LibraryError("no_reply", "порт закрылся")
+            self._buf += chunk
+        line, _, self._buf = self._buf.partition(b"\n")
+        try:
+            return line.decode("utf-8").strip()
+        except UnicodeDecodeError as exc:
+            raise LibraryError("bad_reply", "ответ не UTF-8") from exc
+
+    def _configure(self) -> None:
+        tty.setraw(self._fd)
+        attr = termios.tcgetattr(self._fd)
+        attr[4] = termios.B115200
+        attr[5] = termios.B115200
+        termios.tcsetattr(self._fd, termios.TCSANOW, attr)
+        os.set_blocking(self._fd, False)
+
+
+def parse_state(reply: str) -> ShelfState:
     parts = reply.split()
-    if len(parts) < 5 or parts[0] != "OK" or parts[1] != "state":
+    if len(parts) != 5 or parts[0] != "OK" or parts[1] != "state":
         raise LibraryError("bad_reply", reply)
     fields: dict[str, str] = {}
     for part in parts[2:]:
@@ -146,22 +196,22 @@ def parse_state(reply: str) -> Snapshot:
             raise LibraryError("bad_reply", reply)
         fields[key] = value
     try:
-        bay_text = fields["bay"]
-        z = fields["z"]
-        power_text = fields["power"]
+        return ShelfState(
+            slots=_flags(fields["slots"], reply),
+            present=_flags(fields["present"], reply),
+            disks=_flags(fields["disks"], reply),
+        )
     except KeyError as exc:
         raise LibraryError("bad_reply", reply) from exc
-    if z not in _Z:
+
+
+def _flags(text: str, reply: str) -> tuple[bool, bool, bool, bool]:
+    parts = text.split(",")
+    if len(parts) != 4 or any(part not in {"0", "1"} for part in parts):
         raise LibraryError("bad_reply", reply)
-    if power_text not in {"0", "1"}:
-        raise LibraryError("bad_reply", reply)
-    if bay_text == "home":
-        bay = None
-    else:
-        try:
-            bay = int(bay_text)
-        except ValueError as exc:
-            raise LibraryError("bad_reply", reply) from exc
-        if bay < 1:
-            raise LibraryError("bad_reply", reply)
-    return Snapshot(bay=bay, z=z, power=power_text == "1")
+    return (parts[0] == "1", parts[1] == "1", parts[2] == "1", parts[3] == "1")
+
+
+def _place(number: int) -> None:
+    if number < 1 or number > 4:
+        raise LibraryError("bad_arg", "range")

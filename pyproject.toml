@@ -1,7 +1,7 @@
 [project]
 name = "sata-library"
 version = "0.1.0"
-description = "Host policy for a library of stationary HDDs and one moving SATA plug"
+description = "Host for a shelf of stationary disks. An ESP32 switches 12 V; the host copies with rsync over USB."
 requires-python = ">=3.11"
 license = "MIT"
 dependencies = []

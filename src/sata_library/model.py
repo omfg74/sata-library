@@ -12,19 +12,22 @@ class Disk:
 
 
 @dataclass(frozen=True)
-class Bay:
-    id: int
+class DiskEntry:
+    slot: int
+    index: int
     serial: str
+    path_contains: str
+    mount: str
 
 
 @dataclass(frozen=True)
-class Snapshot:
-    bay: int | None
-    z: str
-    power: bool
+class ShelfState:
+    slots: tuple[bool, bool, bool, bool]
+    present: tuple[bool, bool, bool, bool]
+    disks: tuple[bool, bool, bool, bool]
 
 
 @dataclass(frozen=True)
 class LibraryConfig:
-    path_contains: str
-    bays: tuple[Bay, ...]
+    spin_pause_s: float
+    disks: tuple[DiskEntry, ...]
